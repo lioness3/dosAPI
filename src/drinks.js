@@ -5,23 +5,22 @@ export class Drinks{
       let jsonifiedResponse = await response.json();
       return jsonifiedResponse;
     } catch(error) {
-      console.error("There was an error handling your request: " + error.message);
+    // inputError();
+
+
     }
   }
-}
 
+//???????????response.error
 
 //     });
 //   }
 // }
 
 // const getElements = function(response) {
-//   console.log(response.drinks)
-//   response.drinks.forEach(drink){
-//     console.log(drink)
-//   }
+//
 //   var arr = []
-//   response.drinks.forEach(drink) {
+//   response.drinks.forEach(function(drink) {
 //     console.log(drink)
 //     for(var i = 1; i > 15; i++) {
 //       console.log(i)
@@ -30,3 +29,5 @@ export class Drinks{
 //       }
 //     }
 //   }
+// }
+}
